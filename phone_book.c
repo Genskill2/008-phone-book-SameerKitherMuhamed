@@ -224,6 +224,7 @@ int search(FILE *fp,char *NAME){
     		break;
     	}
 	}
+	return searched;
 }
 
 int delete(FILE *db_file, char *name) {
